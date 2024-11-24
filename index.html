@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="style.css" rel="stylesheet"> 
+    <link href="background.scss" rel="">
+</head>
+
+<body>
+    
+
+    <nav class="navbar">
+        <img src="icons/icons8-male-user-48.png">
+        <p class="p_evans">Evans</p>
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+        <ul class="nav-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Education</a></li>
+            <li><a href="">Experience</a></li>
+        </ul>
+    </nav>
+
+    
+    <script>
+        function toggleMobileMenu() {
+            const navList = document.querySelector('.nav-list');
+            navList.classList.toggle('active');
+        }
+
+
+                    let lastScrollTop = 0;
+            const navbar = document.getElementById('navbar');
+
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (scrollTop > lastScrollTop) {
+                    // Downscroll
+                    navbar.classList.add('hidden');
+                } else {
+                    // Upscroll
+                    navbar.classList.remove('hidden');
+                }
+
+                lastScrollTop = scrollTop;
+            });
+
+    </script>
+    
+<div class="intro">
+    <p class="first_text">
+        <br><br><br><br><br><br><br>
+        Hi there! <br>           
+        I am Evans Osumba<br>
+        Sofware Developer
+        
+    </p>
+    <hr class="first_line">
+</div>
+    
+    
+    <div class="icon-container">
+        <a href=""><div class="icon"><img src="icons/icons8-github-24.png"></i></div></a>
+        <a href="https://www.instagram.com/evanz_49/"><div class="icon"><img src="icons/icons8-instagram-64.png"></i></div></a>
+        <a href="https://www.linkedin.com/in/evans-osumba-0565b42b0/"><div class="icon"><img src="icons/icons8-linked-in-94.png"></i></div></a>
+        <a href="https://x.com/utd_garna17"><div class="icon"><img src="icons/icons8-twitterx-48.png"></i></div></a>
+        <a href="https://web.whatsapp.com//254707868194"><div class="icon"><img src="icons/icons8-whatsapp-50.png"></i></div></a>
+    </div>
+    <div class="skillz">
+    <div class="about_me">
+        <img class="office_img" src="images/it_office_ai.jpeg">
+        <div class="about_text">
+            <h2>About me</h2>
+            <p class="about_p"> 
+                I'm Evans,<br>
+                A Full Stack Developer<br>
+                I am a Full-Stack developer based in Nairobi, Kenya.<br>
+                I am a Communication and Computer Network student from The Technical University of Kenya.<br>
+                I build WebApps and Websites using MERN Stack. Working for myself to improve my skills.<br>
+                Love to build Full-Stack clones.
+               </p>
+        </div>
+
+    </div>
+    </div>
+    <div class="skillz">
+        
+        <div class="in_skillz">
+            <h2 class="ability_text" style="width: 100%; font-size:xx-large;justify-content: center;align-items: center;">Skills</h2>
+           
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-linux-48.png">
+                <p class="ability_text">Linux</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-python-94.png">
+                <p class="ability_text">Python</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-react-js-100.png">
+                <p class="ability_text">React JS</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/html5.png">
+                <p class="ability_text">HTML 5</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-c-48.png">
+                <p class="ability_text">C</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-css-48.png">
+                <p class="ability_text">CSS</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-github-24.png">
+                <p class="ability_text">Github</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-android-94.png">
+                <p class="ability_text">Android</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/kotlinn.png">
+                <p class="ability_text">Kotlin</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-bootstrap-100.png">
+                <p class="ability_text">Bootstrap</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-jquery-96.png">
+                <p class="ability_text">J Querry</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-java-94.png">
+                <p class="ability_text">Java</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-mysql-96.png">
+                <p class="ability_text">MySQL</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-node-js-96.png">
+                <p class="ability_text">Node JS</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-wordpress-188.png">
+                <p class="ability_text">Word Press</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-express-js-128.png">
+                <p class="ability_text">Express JS</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-redux-an-open-source-javascript-library-for-managing-application-state-100.png">
+                <p class="ability_text">Redux</p>
+            </div>
+
+            <div class="ability">
+                <img class="ability_img" src="icons/icons8-firebase-a-google's-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-96.png">
+                <p class="ability_text">Firebase</p>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+
+    <div class="skillz">
+        
+        <div class="education_out">
+             <h2 class="ability_text" style="font-size:xx-large;">Education</h2>
+             <div class="education">
+                <img class="edu_img" src="images/illustration-of-graduation-cap-icon-free-png.webp">
+                <p class="ability_text">Bachelor Of Technology Communication And Computer Networks<br>
+                                        2023-2027<br>
+                                        Still persuing
+                </p>
+             </div>
+
+             <div class="education">
+                <img class="edu_img" src="images/illustration-of-graduation-cap-icon-free-png.webp">
+                <p class="ability_text">Diploma in Software Engineering<br>
+                                        2023-2025<br>
+                                        Still persuing
+                    </p>
+             </div>
+
+             <div class="education">
+                <img class="edu_img" src="images/illustration-of-graduation-cap-icon-free-png.webp">
+                <p class="ability_text">Certificate in ICDL<br>
+                                        2023<br>
+                                        Completed.
+                    </p>
+             </div>
+         
+
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact_in">
+            
+            <!-- <h2 class="ability_text" style="font-size:xx-large;">Get in touch</h2>  --> 
+                    <img class="contact_us" src="images/contact_us.avif">
+                   
+            
+                <form class="contact-form" action="submit-form.php" method="POST">
+                    <h2 class="ability_text" style="font-size:x-large;color: blue;"><b>Get in touch</b></h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone No:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+           
+        </div>
+
+    </div>
+    <div class="pagebottom">
+        <div class="bottom_div">
+            <p>Contact info-<br>
+               Evans Osumba<br>
+               Call: +2547 078 682 94<br>
+               Gmail: osumbaevans21@gmail.com                     
+            </p>
+
+        </div>
+
+        <div class="bottom_div">
+            <p>Thank you for visiting my Portfolio<br>
+            Connect with me using my contacts info
+            </p>
+        </div> 
+        <nav class="bottom_nav">
+         <p class=""> © All Rights Reserved | Terms of Use  | Privacy and Cookie policy | 2024
+        </p> 
+    </nav>
+    </div>
+    
+</body>
+</html>
